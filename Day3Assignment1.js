@@ -2,7 +2,7 @@
 
 /*
     Create a file and declare variables and assign string, 
-    boolean, undefined and null data types
+    boolean, undefined and null data types.
 */
 
 const buildingName = "Nyati Tech Park";
@@ -14,6 +14,4 @@ console.log(typeof buildingName); // string
 console.log(typeof isFurnished); // boolean
 console.log(typeof underConstruction); // undefined
 console.log(typeof needsModification); // null
-
-
 
