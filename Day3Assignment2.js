@@ -2,7 +2,7 @@
 
 /*
     Create file and use the JavaScript typeof operator 
-    to check different data types. Check the data type of each variable
+    to check different data types. Check the data type of each variable.
 
 */
 
