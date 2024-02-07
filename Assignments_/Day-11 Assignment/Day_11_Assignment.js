@@ -215,11 +215,7 @@ console.log(ages[ages.length - 1]);
 
 function getMedianAge(ages) {
     
-    let totalAge = 0;
-    for(let index in ages) {
-        totalAge += ages[index];
-    }
-    return totalAge / ages.length;
+   return ages.length % 2 ? ages[ages.length / 2 - 1] : ages[ages.length / 2 ] 
 }
 
 const medianAge = getMedianAge(ages);
